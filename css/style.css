@@ -88,15 +88,22 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 50px 0 40px 0;
 }
 .three p{
     flex: 0 1 auto;
     width: 800px;
 
 }
-
-
+.three .pt{
+    align-self: flex-end;
+    text-align: center;
+    font-size: 26px;
+}
+.po{
+    color:#1f2937 ;
+    font-size: 26px;
+}
 
 
 
