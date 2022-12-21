@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: whitesmoke;
+}
+
+ul{
+    flex:1;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+a{
+    color: whitesmoke;
+}
+
+.header h3{
+    flex:1;
+    padding-left:400px;
+    font-size: 25px;
+}
+
+.one{
+    display: flex;
+}
+
+.imgContainer, .typed{
+    flex: 1;
+}
+.typed{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
