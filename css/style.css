@@ -106,6 +106,41 @@ a{
 }
 
 
+.four{
+    background-color: #3882f6;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 100px 80px 100px ;
+    border-radius: 8px;
+
+}
+.four-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.four .container-four{
+    flex:1;
+}
+.button-four{
+    flex: 1;
+}
+.container-four p{
+    width: 400px;
+}
+.button-four button{
+    background-color: #3882f6;
+    color: whitesmoke;
+    font-size: 16px;
+    border: solid 2px whitesmoke;
+    padding: 7px 25px 7px 25px;
+    border-radius: 8px;
+}
+
 
 
 
