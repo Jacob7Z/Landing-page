@@ -68,10 +68,38 @@ a{
     border-radius: 8px;
 }
 
+.two{
+    display: flex;
+    flex-direction: column;
+}
 
+.products-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
-
-
+.products-container img{
+    width: 250px;
+    border: solid 5px#3882f6;
+    border-radius: 16px;
+}
+.products-container p{
+    font-size: 26px;
+    color: #1F2937;
+}
+.two h2{
+    color: #1F2937;
+    text-align: center;
+    font-size: 40px;
+}
+.product-1, .product-2, .product-3, .product-4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -141,6 +169,15 @@ a{
     border-radius: 8px;
 }
 
+
+
+.footer{
+    background-color: #1F2937;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
