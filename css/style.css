@@ -5,9 +5,10 @@ body {
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #1F2937;
     color: whitesmoke;
+    gap: 250px;
 }
 
 ul{
@@ -21,26 +22,79 @@ a{
 }
 
 .header h3{
-    flex:1;
-    padding-left:400px;
+    flex:auto;
     font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .one{
     display: flex;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    gap: 150px;
+    justify-content: center;
 }
 
-.imgContainer, .typed{
-    flex: 1;
+.typed{
+    width: 350px;
+    flex: 0 1 auto
+}
+
+.imgaz{
+    width: 350px;
+    flex: 0 1 auto
+}
+.imgaz img{
+    margin-top: 30px;
+    width: 400px;
 }
 .typed{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    color: whitesmoke;
+}
+.typed p{
+    width: 350px;
+    font-size: 18px;
+}
+
+.typed button{
+    background-color: #3882f6;
+    color: whitesmoke;
+    font-size: 16px;
+    border: #3882f6;
+    padding: 7px 25px 7px 25px;
+    border-radius: 8px;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.three{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.three p{
+    flex: 0 1 auto;
+    width: 800px;
+
+}
 
 
 
